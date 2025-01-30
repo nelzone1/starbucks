@@ -1,0 +1,90 @@
+const conversionRate = 80; // Adjust this rate as necessary
+
+export const BaristaRecommends = [
+    {
+        id: "1",
+        img: hazelnut,
+        title: "Hazelnut Triangle ",
+        gram: "50",
+        type: nonveg,
+        kcal: "302",
+        price: (204 / conversionRate).toFixed(2), // Converted to dollars
+        paise: "75"
+    },
+    {
+        id: "2",
+        img: bhuna,
+        title: "Bhuna Chicken Puff ",
+        type: nonveg,
+        gram: "85",
+        kcal: "390",
+        price: (194 / conversionRate).toFixed(2), // Converted to dollars
+        paise: "25"
+    },
+    {
+        id: "3",
+        img: chocolatebrown,
+        title: "Chocolate Brownie Cupcake ",
+        type: veg,
+        gram: "80",
+        kcal: "416",
+        price: (288 / conversionRate).toFixed(2), // Converted to dollars
+        paise: "75"
+    },
+    {
+        id: "4",
+        img: Three,
+        title: "Three Dip Nachos ",
+        gram: "80",
+        type: veg,
+        kcal: "513",
+        price: (262 / conversionRate).toFixed(2), // Converted to dollars
+        paise: "50"
+    },
+    {
+        id: "5",
+        img: paneer,
+        title: "Chilli Paneer In Herbed Bun ",
+        type: veg,
+        gram: "180",
+        kcal: "598",
+        price: (283 / conversionRate).toFixed(2), // Converted to dollars
+        paise: "50"
+    },
+];
+
+export const PromotionBanner = [
+    {
+        id: "1",
+        img: icecoffee,
+        title: " Attention Starbucks Fans! ",
+        bg: bg_1,
+        head: "Signature Milkshakes",
+        des: " Satisfy your sweet tooth with our signature milkshakes. Indulge today in these coffee-free versions. ",
+        price: (330 / conversionRate).toFixed(2), // Converted to dollars
+        paise: "00",
+        b_content: "Order Now"
+    },
+    {
+        id: "2",
+        img: masalachai,
+        title: "Go Desi With! ",
+        bg: bg_2,
+        head: " Masala Chai",
+        des: "Enjoy traditional masala chai with abundance of strong Indian spices and flavourful handpicked tea.  ",
+        price: (283 / conversionRate).toFixed(2), // Converted to dollars
+        paise: "00",
+        b_content: "Order Now"
+    },
+    {
+        id: "3",
+        img: burger,
+        title: " Presenting ",
+        bg: bg_3,
+        head: " Freshly Assembled ",
+        des: " Savor the taste of our new handcrafted sandwiches. Freshness never tasted so good.   ",
+        price: (350 / conversionRate).toFixed(2), // Converted to dollars
+        paise: "00",
+        b_content: "Know More"
+    },
+];
