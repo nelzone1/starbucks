@@ -8,7 +8,7 @@ export const BaristaRecommends = [
         gram: "50",
         type: nonveg,
         kcal: "302",
-        price: (204 / conversionRate).toFixed(2), // Converted to dollars
+        price: `$${(204 / conversionRate).toFixed(2)}`, // Converted to dollars
         paise: "75"
     },
     {
@@ -18,7 +18,7 @@ export const BaristaRecommends = [
         type: nonveg,
         gram: "85",
         kcal: "390",
-        price: (194 / conversionRate).toFixed(2), // Converted to dollars
+        price: `$${(194 / conversionRate).toFixed(2)}`, // Converted to dollars
         paise: "25"
     },
     {
@@ -28,7 +28,7 @@ export const BaristaRecommends = [
         type: veg,
         gram: "80",
         kcal: "416",
-        price: (288 / conversionRate).toFixed(2), // Converted to dollars
+        price: `$${(288 / conversionRate).toFixed(2)}`, // Converted to dollars
         paise: "75"
     },
     {
@@ -38,7 +38,7 @@ export const BaristaRecommends = [
         gram: "80",
         type: veg,
         kcal: "513",
-        price: (262 / conversionRate).toFixed(2), // Converted to dollars
+        price: `$${(262 / conversionRate).toFixed(2)}`, // Converted to dollars
         paise: "50"
     },
     {
@@ -48,7 +48,7 @@ export const BaristaRecommends = [
         type: veg,
         gram: "180",
         kcal: "598",
-        price: (283 / conversionRate).toFixed(2), // Converted to dollars
+        price: `$${(283 / conversionRate).toFixed(2)}`, // Converted to dollars
         paise: "50"
     },
 ];
@@ -61,7 +61,7 @@ export const PromotionBanner = [
         bg: bg_1,
         head: "Signature Milkshakes",
         des: " Satisfy your sweet tooth with our signature milkshakes. Indulge today in these coffee-free versions. ",
-        price: (330 / conversionRate).toFixed(2), // Converted to dollars
+        price: `$${(330 / conversionRate).toFixed(2)}`, // Converted to dollars
         paise: "00",
         b_content: "Order Now"
     },
@@ -72,7 +72,7 @@ export const PromotionBanner = [
         bg: bg_2,
         head: " Masala Chai",
         des: "Enjoy traditional masala chai with abundance of strong Indian spices and flavourful handpicked tea.  ",
-        price: (283 / conversionRate).toFixed(2), // Converted to dollars
+        price: `$${(283 / conversionRate).toFixed(2)}`, // Converted to dollars
         paise: "00",
         b_content: "Order Now"
     },
@@ -83,7 +83,7 @@ export const PromotionBanner = [
         bg: bg_3,
         head: " Freshly Assembled ",
         des: " Savor the taste of our new handcrafted sandwiches. Freshness never tasted so good.   ",
-        price: (350 / conversionRate).toFixed(2), // Converted to dollars
+        price: `$${(350 / conversionRate).toFixed(2)}`, // Converted to dollars
         paise: "00",
         b_content: "Know More"
     },
